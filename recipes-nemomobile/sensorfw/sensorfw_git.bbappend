@@ -1,7 +1,7 @@
-FILESEXTRAPATHS:prepend:ray := "${THISDIR}/sensorfw:"
-SRC_URI:append:ray = " file://sensorfwd.service"
+FILESEXTRAPATHS:prepend:beluga := "${THISDIR}/sensorfw:"
+SRC_URI:append:beluga = " file://sensorfwd.service"
 
-DEPENDS:append:ray = " libhybris "
+DEPENDS:append:beluga = " libhybris "
 
 FILESEXTRAPATHS:prepend:firefish := "${THISDIR}/sensorfw:"
 SRC_URI:append:firefish = " file://sensorfwd.service"

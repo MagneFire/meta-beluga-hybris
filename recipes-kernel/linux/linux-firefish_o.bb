@@ -13,7 +13,7 @@ SRC_URI = " git://android.googlesource.com/kernel/msm;branch=android-msm-firefis
     file://img_info \
     file://0001-scripts-dtc-Remove-redundant-YYLOC-global-declaratio.patch \
     file://0002-ARM-uaccess-remove-put_user-code-duplication.patch \
-    file://0003-touchscreen-raydium-Add-delay-for-wakeup-report.patch \
+    file://0003-touchscreen-belugadium-Add-delay-for-wakeup-report.patch \
     file://0004-Backport-mainline-4.1-Bluetooth-subsystem.patch \
 "
 

@@ -1,7 +1,7 @@
-FILESEXTRAPATHS:prepend:ray := "${THISDIR}/${PN}:"
-COMPATIBLE_MACHINE:ray = "ray"
+FILESEXTRAPATHS:prepend:beluga := "${THISDIR}/${PN}:"
+COMPATIBLE_MACHINE:beluga = "beluga"
 
-RDEPENDS:${PN}:append:ray += "msm-fb-refresher"
+RDEPENDS:${PN}:append:beluga += "msm-fb-refresher"
 
 FILESEXTRAPATHS:prepend:firefish := "${THISDIR}/${PN}:"
 COMPATIBLE_MACHINE:firefish = "firefish"

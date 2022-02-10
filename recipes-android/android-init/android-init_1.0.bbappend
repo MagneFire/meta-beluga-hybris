@@ -1,9 +1,9 @@
-FILESEXTRAPATHS:prepend:ray := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS:prepend:beluga := "${THISDIR}/${PN}:"
 
-SRC_URI:append:ray = " file://nonplat_property_contexts \
+SRC_URI:append:beluga = " file://nonplat_property_contexts \
     file://plat_property_contexts"
 
-do_install:append:ray() {
+do_install:append:beluga() {
     install -m 0644 ${WORKDIR}/nonplat* ${D}/
     install -m 0644 ${WORKDIR}/plat* ${D}/
 }
