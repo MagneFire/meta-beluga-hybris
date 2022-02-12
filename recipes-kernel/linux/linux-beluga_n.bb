@@ -12,7 +12,10 @@ SRC_URI = " git://android.googlesource.com/kernel/msm;branch=android-msm-beluga-
     file://defconfig \
     file://img_info \
     file://0001-scripts-dtc-Remove-redundant-YYLOC-global-declaratio.patch \
-    file://0001-Revert-ARM-msm-dts-add-custom-dts-path-arch-arm-boot.patch \
+    file://0001-dts-Add-oppo-device-trees.patch \
+    file://0001-cyttsp5-Fix-compilation.patch \
+    file://0001-oppo-Fix-compilation.patch \
+    file://0001-pinctrl-Fix-compilation.patch \
     file://0001-btfm_slim-Fix-compilation.patch \
     file://0001-cpuidle-Fix-compilation.patch \
     file://0001-gpu-Compilation-fix.patch \
